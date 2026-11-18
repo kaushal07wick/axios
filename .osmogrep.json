@@ -1,0 +1,4 @@
+{
+  "install": "PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 npm ci --ignore-scripts --no-audit --no-fund",
+  "test": "npm run test:vitest:unit -- tests/unit/helpers/progressEventReducer.test.js tests/unit/helpers/throttle.test.js --maxWorkers=2"
+}
